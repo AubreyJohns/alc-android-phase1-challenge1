@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".myProfile">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:src="@drawable/prof_pic"
+            android:id="@+id/profile_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView android:id="@+id/profile_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="24dp"
+            android:text="Aubrey Omondi"
+            android:layout_below="@+id/profile_image"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20dp"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/profile_name"
+            android:background="@android:color/darker_gray"/>
+
+
+            <TextView android:id="@+id/profile_track"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:layout_below="@+id/profile_name"
+                android:textSize="20sp"
+                android:text="Track: Android"
+                />
+        <TextView android:id="@+id/profile_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:layout_marginBottom="24dp"
+            android:layout_below="@+id/profile_track"
+            android:textSize="20sp"
+            android:text="Country: Kenya"
+            />
+        <TextView android:id="@+id/profile_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:layout_marginBottom="24dp"
+            android:layout_below="@+id/profile_country"
+            android:textSize="20sp"
+            android:text="Email: aubreyomondi@gmail.com"
+            />
+        <TextView android:id="@+id/profile_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:layout_marginBottom="24dp"
+            android:layout_below="@+id/profile_email"
+            android:textSize="20sp"
+            android:text="Phone Number: 0711170822"
+            />
+        <TextView android:id="@+id/profile_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:layout_below="@+id/profile_number"
+            android:textSize="20sp"
+            android:text="Slack Username: Aubrey Omondi"
+            />
+    </RelativeLayout>
+</ScrollView>
