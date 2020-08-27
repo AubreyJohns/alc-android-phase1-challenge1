@@ -1,10 +1,10 @@
 # ALC 4.0 Phase 1 Android Challenge 1
 
-![Home](ALC Phase 1.jpg) 
+![Home](https://github.com/aubreyomondi/alc-android-phase1-challenge1/blob/master/ALC%20Phase%201.jpg) 
 
-![About](ALC Phase 1_about.jpg) 
+![About](https://github.com/aubreyomondi/alc-android-phase1-challenge1/blob/master/ALC%20Phase%201_about.jpg) 
 
-![Profile](ALC Phase 1_profile.jpg)
+![Profile](https://github.com/aubreyomondi/alc-android-phase1-challenge1/blob/master/ALC%20Phase%201_profile.jpg)
 
 
 
